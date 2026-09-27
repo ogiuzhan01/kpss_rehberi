@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'db_helper.dart';
-
+import 'harita_etkinlik.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const KpssApp());
@@ -167,6 +167,7 @@ class HomePage extends StatelessWidget {
             // Ders Listesi
             _buildLessonCard(context, 'Tarih', Icons.menu_book_rounded, const Color(0xFFE5A93C)),
             _buildLessonCard(context, 'Coğrafya', Icons.public_rounded, const Color(0xFF2E7D32)),
+           _buildLessonCard(context, 'Dilsiz Harita', Icons.map_rounded, const Color(0xFF3F51B5)),
             _buildLessonCard(context, 'Türkçe', Icons.edit_note_rounded, const Color(0xFF1976D2)),
             _buildLessonCard(context, 'Matematik', Icons.calculate_rounded, const Color(0xFFD32F2F)),
             _buildLessonCard(context, 'Vatandaşlık', Icons.gavel_rounded, const Color(0xFF7B1FA2)),
@@ -207,6 +208,13 @@ class HomePage extends StatelessWidget {
         subtitle: const Text('Konu testleri ve pratik sorular'),
         trailing: const Icon(Icons.arrow_forward_ios_rounded, size: 16, color: Colors.grey),
         onTap: () {
+          if (title == 'Dilsiz Harita') {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const HaritaEtkinlikPage()),
+    );
+    return; // Diğer soru bankası kodlarının çalışmasını engeller!
+  }
           Navigator.push(
             context,
             MaterialPageRoute(
