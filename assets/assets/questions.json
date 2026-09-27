@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "lessonTitle": "Tarih",
+    "questionText": "1. Osmanlı Devleti'nde ilk resmi gazete aşağıdakilerden hangisidir?",
+    "optionA": "Takvim-i Vekayi",
+    "optionB": "Tercüman-ı Ahvâl",
+    "optionC": "Ceride-i Havadis",
+    "optionD": "Tasvir-i Efkâr",
+    "optionE": "Volkan",
+    "correctOptionIndex": 0,
+    "explanation": "Takvim-i Vekayi, 1831 yılında II. Mahmud döneminde çıkarılan ilk resmi gazetedir."
+  },
+  {
+    "id": 2,
+    "lessonTitle": "Tarih",
+    "questionText": "2. Kurtuluş Savaşı döneminde Doğu Cephesi Komutanlığı görevini yürüten komutan kimdir?",
+    "optionA": "İsmet İnönü",
+    "optionB": "Kâzım Karabekir",
+    "optionC": "Fevzi Çakmak",
+    "optionD": "Ali Fuat Cebesoy",
+    "optionE": "Refet Bele",
+    "correctOptionIndex": 1,
+    "explanation": "Doğu Cephesi Komutanı Kâzım Karabekir, Ermenistan ile Gümrü Antlaşması'nı imzalamıştır."
+  },
+  {
+    "id": 3,
+    "lessonTitle": "Coğrafya",
+    "questionText": "1. Türkiye'de iklim çeşitliliğinin en fazla olduğu coğrafi bölge hangisidir?",
+    "optionA": "İç Anadolu",
+    "optionB": "Ege",
+    "optionC": "Marmara",
+    "optionD": "Akdeniz",
+    "optionE": "Karadeniz",
+    "correctOptionIndex": 2,
+    "explanation": "Marmara Bölgesi; Akdeniz, Karadeniz ve Karasal iklim geçiş alanında yer aldığı için iklim çeşitliliği en yüksek bölgedir."
+  },
+  {
+    "id": 4,
+    "lessonTitle": "Vatandaşlık",
+    "questionText": "1. 1982 Anayasası'na göre TBMM kaç milletvekilinden oluşur?",
+    "optionA": "450",
+    "optionB": "500",
+    "optionC": "550",
+    "optionD": "600",
+    "optionE": "650",
+    "correctOptionIndex": 3,
+    "explanation": "2017 Anayasa değişikliği ile TBMM üye sayısı 600'e çıkarılmıştır."
+  },
+  {
+    "id": 5,
+    "lessonTitle": "Türkçe",
+    "questionText": "1. Aşağıdaki cümlelerin hangisinde bir yazım yanlışı vardır?",
+    "optionA": "Herhangi bir sorunla karşılaşmadık.",
+    "optionB": "Olay dün akşam üzerı gerçekleşti.",
+    "optionC": "Birçok öğrenci sınava katıldı.",
+    "optionD": "TDK'nin yeni kılavuzunu inceledim.",
+    "optionE": "Bugün hiç kimse buraya gelmedi.",
+    "correctOptionIndex": 1,
+    "explanation": "'Akşamüstü' ve 'akşamüzeri' kelimeleri birleşik yazılır."
+  }
+]
